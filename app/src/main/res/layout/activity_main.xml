@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="start"
+        android:padding="20dp"
+        android:text="go!!"
+        android:textColor="#131212"
+        android:textSize="50sp"
+        android:visibility="visible"
+        app:backgroundTint="#13E880"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timertTextView"
+        android:layout_width="89dp"
+        android:layout_height="93dp"
+        android:background="@drawable/timerrr"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="top"
+        android:text="30s"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pointsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#FFAB40"
+        android:padding="10dp"
+        android:text="0/0"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="0/0" />
+
+    <TextView
+        android:id="@+id/SumtextView"
+        android:layout_width="225dp"
+        android:layout_height="99dp"
+        android:gravity="center"
+        android:background="@drawable/backk"
+        android:text="32+22"
+        android:textColor="#ffff"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/pointsTextView"
+        app:layout_constraintStart_toEndOf="@+id/timertTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="289dp"
+        android:layout_height="140dp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/highetscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highest Score is :"
+        android:textColor="#0277BD"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/startButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/playagainbtn"
+        android:layout_width="189dp"
+        android:layout_height="102dp"
+        android:onClick="playAgain"
+        android:padding="15dp"
+        android:text="Play Again!"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:backgroundTint="#EF6C00"
+        app:cornerRadius="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/startButton" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="131dp"
+            android:layout_height="139dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:onClick="chosseanswer"
+            android:tag="0"
+            android:text="3"
+
+            android:textSize="36sp"
+            app:backgroundTint="#056A39"
+            app:cornerRadius="25sp"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="131dp"
+            android:layout_height="139dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:onClick="chosseanswer"
+            android:tag="3"
+            android:text="3"
+            android:textSize="36sp"
+            app:backgroundTint="#DC1A1A"
+            app:cornerRadius="25sp"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="131dp"
+            android:layout_height="139dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:onClick="chosseanswer"
+            android:tag="1"
+            android:text="3"
+            android:textSize="36sp"
+            app:cornerRadius="25sp"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="131dp"
+            android:layout_height="139dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:onClick="chosseanswer"
+            android:tag="2"
+            android:text="3"
+            android:textColor="#E6DADA"
+            android:textSize="36sp"
+            app:backgroundTint="#E040FB"
+            app:cornerRadius="25sp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

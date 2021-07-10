@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143559322348",
+    "project_id": "brain-trainer-maths",
+    "storage_bucket": "brain-trainer-maths.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143559322348:android:f9a14ba2b83932505d93c9",
+        "android_client_info": {
+          "package_name": "com.example.braintrainermaths"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143559322348-42splqli6sq89cld6qte93uo9n4hivvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzQTPsKdVk2pqD3GMHtzNbYCEHYxJhfT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143559322348-42splqli6sq89cld6qte93uo9n4hivvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
