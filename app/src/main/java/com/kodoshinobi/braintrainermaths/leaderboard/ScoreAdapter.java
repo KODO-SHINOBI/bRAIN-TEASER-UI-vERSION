@@ -1,4 +1,4 @@
-package com.example.braintrainermaths.leaderboard;
+package com.kodoshinobi.braintrainermaths.leaderboard;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.braintrainermaths.R;
+import com.kodoshinobi.braintrainermaths.R;
 
 import java.util.List;
 

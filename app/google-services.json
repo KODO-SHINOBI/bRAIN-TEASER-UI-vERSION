@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "143559322348",
+    "firebase_url": "https://brain-trainer-maths-default-rtdb.firebaseio.com",
     "project_id": "brain-trainer-maths",
     "storage_bucket": "brain-trainer-maths.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:143559322348:android:f9a14ba2b83932505d93c9",
+        "mobilesdk_app_id": "1:143559322348:android:04bfa3a6805a97bd5d93c9",
         "android_client_info": {
-          "package_name": "com.example.braintrainermaths"
+          "package_name": "com.kodoshinobi.braintrainermaths"
         }
       },
       "oauth_client": [

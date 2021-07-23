@@ -7,7 +7,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.example.braintrainermaths"
+        applicationId "com.kodoshinobi.braintrainermaths"
         minSdkVersion 16
         targetSdkVersion 29
         multiDexEnabled true

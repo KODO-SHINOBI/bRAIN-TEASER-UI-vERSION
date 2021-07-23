@@ -1,4 +1,4 @@
-package com.example.braintrainermaths.leaderboard;
+package com.kodoshinobi.braintrainermaths.leaderboard;
 
 public class   ScoreData {
     String name,image;

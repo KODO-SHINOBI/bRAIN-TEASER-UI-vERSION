@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Brain Trainer Maths</string>
     <string name="title_activity_loginviafb">fblogin</string>
-    <string name="facebook_app_id">515275533070223</string>
-    <string name="fb_login_protocol_scheme">fb515275533070223</string>
+    <string name="facebook_app_id">2887519471469397</string>
+    <string name="fb_login_protocol_scheme">fb2887519471469397</string>
 
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

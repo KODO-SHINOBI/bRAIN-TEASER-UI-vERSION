@@ -1,4 +1,4 @@
-package com.example.braintrainermaths;
+package com.kodoshinobi.braintrainermaths;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.example.braintrainermaths;
+package com.kodoshinobi.braintrainermaths;
 
 import org.junit.Test;
 

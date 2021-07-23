@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.braintrainermaths">
+    package="com.kodoshinobi.braintrainermaths">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -33,7 +33,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="@string/fb_login_protocol_scheme" />
+                <data android:scheme="fb2887519471469397" />
             </intent-filter>
         </activity>
         <activity android:name=".fblogin">

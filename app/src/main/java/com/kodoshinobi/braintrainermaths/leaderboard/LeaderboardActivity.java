@@ -1,4 +1,4 @@
-package com.example.braintrainermaths.leaderboard;
+package com.kodoshinobi.braintrainermaths.leaderboard;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.braintrainermaths.R;
+import com.kodoshinobi.braintrainermaths.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
