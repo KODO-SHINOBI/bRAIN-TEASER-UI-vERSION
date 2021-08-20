@@ -2,12 +2,18 @@
 It is a interactive amd informative kid game. It helps children to concentrate and focus \
 for a long time. It is a easy to learn maths game to overcome the fear of mathematics.
 
-## [Play Store](https://play.google.com/store/apps/details?id=com.kodoshinobi.braintrainermaths)
+## [https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white](https://play.google.com/store/apps/details?id=com.kodoshinobi.braintrainermaths)
 
 # Follow us :
-[<img align="left" alt="LinkedIn" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" />][linkedin]
-[<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][Facebook]
-[<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][Twitter]
-[<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][Instagram]
+[<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
+[<img align="left" alt="LinkedIn" src="http://i.imgur.com/P3YfQoD.png" />][Facebook]
+[<img align="left" alt="LinkedIn" src="http://i.imgur.com/tXSoThF.png" />][Twitter]
+[<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />][Instagram]
 
 ### Due to some inconvenience, the full code is not available.
+
+[linkedin]: https://www.linkedin.com/company/kodo-shinobi/
+[Facebook]: https://www.facebook.com/kodo.shinobi58/
+[Twitter]: https://twitter.com/KodoShinobi
+[Instagram]: https://www.instagram.com/kodoshinobi/
+
